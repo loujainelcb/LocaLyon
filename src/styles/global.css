@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap');
+
+/* Palette naturelle et chaleureuse : crème, terracotta, vert olive */
+:root {
+  --color-bg: #f6f1e7;
+  --color-surface: #fffdf8;
+  --color-border: #e2d8c6;
+  --color-text: #3b2f25;
+  --color-text-muted: #7a6a5a;
+  --color-primary: #b5532f;
+  --color-primary-soft: rgba(181, 83, 47, 0.18);
+  --color-accent: #6b8f47;
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --shadow-sm: 0 1px 3px rgba(60, 40, 20, 0.08);
+  --shadow-md: 0 4px 18px rgba(60, 40, 20, 0.12);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+}
